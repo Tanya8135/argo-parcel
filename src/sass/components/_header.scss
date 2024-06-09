@@ -1,8 +1,22 @@
+.headerBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoHeader {
+  padding: 23px 0;
+}
+
 .headerArgo {
   background-color: #d7d3ce;
-  height: 100px;
+  height: 80px;
 }
 
 .burgerMenu {
   fill: $burger-menu;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: none;
 }

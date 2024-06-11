@@ -1,0 +1,149 @@
+.backdrop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+//   min-width: 220px;
+//   min-height: 100%;
+  background-color: $bg-fon;
+
+  // overflow-y: auto;
+  // height: 100vh;
+  z-index: 150;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-hero {
+  min-width: 300px;
+  max-height: 568px;
+
+  background-color: $bg-bd-modal;
+  border-radius: 8px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0 32px;
+  transform: translate(-50%, -50%);
+}
+
+.btn-hero-prise {
+  /* open btn for modal */
+  // @include tabletMin {
+  //   @include font(24px, 600, 00.03em);
+
+  // color: $primary-text;
+
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // // margin: 0 auto;
+  // // margin-bottom: 32px;
+  // padding: 20px 0;
+  // // padding: 0;
+  // background-color: transparent;
+  // // background-color: $bg-burger-menu;
+  // border-radius: 30px;
+  // border: none;
+  // outline: none;
+  // cursor: none;
+  // }
+
+  @include desktop {
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  display: none;
+}
+
+.close-btn-modal {
+//   @include desktop {
+//     cursor: pointer;
+
+//     &:hover {
+//       fill: $accent;
+//     }
+//   }
+
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  fill: $icon;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+
+  cursor: none;
+}
+
+.title-modal {
+  @include font(20px, 1.1, 0.02em, 300);
+
+  color: $primary-text;
+  text-align: center;
+  padding: 39px 0 24px;
+}
+
+.text-modal {
+  padding-bottom: 32px;
+
+  &__item {
+    color: $secondary-text;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.subtitle-modal {
+  @include font(18px, 1.1, 0.02em, 300);
+
+  color: $primary-text;
+  padding-bottom: 16px;
+}
+
+.modal-descr {
+  padding-bottom: 20px;
+
+  &__item {
+    margin-bottom: 8px;
+    color: $secondary-text;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.contact-modal {
+  @include font(21px, 1.1, 0.05em, 300s);
+
+  color: $secondary-text;
+  margin-right: 32px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.menu-social-modal {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+.menu-social__modal {
+  @include font(15px, 1.1, 0.01em, 300);
+
+  color: $primary-text;
+}

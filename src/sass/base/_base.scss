@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff8f4;
+  color: #1c0f00;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+  // height: auto;
+  object-fit: cover;
+}

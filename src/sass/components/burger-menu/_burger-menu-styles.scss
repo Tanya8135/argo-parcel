@@ -1,0 +1,92 @@
+.burger-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  // padding-top: 12px;
+  height: 100%;
+}
+
+.bmList {
+  margin-top: 52px;
+}
+
+.bmItem {
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.bmLink {
+  @include font(14px, 1, 0.03em, 300);
+  font-family: 'Open Sans', sans-serif;
+
+  color: $secondary-text;
+  padding: 5px 0;
+}
+
+.bmContacts {
+  padding-top: 32px;
+}
+
+.bmContactsLink {
+  @include font(14px, 1, 0.01, 400);
+
+  display: flex;
+  fill: $icon;
+  color: $secondary-text;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:active,
+  &:hover {
+    fill: $accent;
+    color: $accent;
+  }
+}
+
+.bmContactsTelBox {
+  @include font(14px, 1.1, 0.03em, 300);
+
+  padding-top: 12px;
+  padding-bottom: 32px;
+}
+
+.bmContactsTel {
+  @include font(14px, 1, 0.01, 400);
+  margin-bottom: 16px;
+  fill: $icon;
+  display: flex;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.iconPhone {
+  margin-right: 4px;
+}
+
+.bmTextContact {
+  margin-left: 8px;
+}
+
+.bmContactsItemSocialBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bmContactsItemSocial {
+  margin-left: 32px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.iconSocial {
+  // fill: $icon;
+  color: $icon;
+}

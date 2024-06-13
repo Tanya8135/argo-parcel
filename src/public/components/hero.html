@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero" id="billiardClub">
   <!-- Hero BK -->
   <div class="heroBk">
     <div class="titleHeroBox">
@@ -40,33 +40,69 @@
 
   <!-- close modal & content -->
   <div class="backdrop is-hidden" data-modal>
-    <div class="modal-hero">
-      <h2 class="title-modal">Прайс</h2>
-
-      <ul class="text-modal">
-        <li class="text-modal__item">
-          Денне перебування без заселення - 150 грн з людини
+    <div class="modalPriceBk">
+      <ul class="modalPriceBkList">
+        <li class="modalPriceBkItem">
+          <a href="#billiardClub" class="modalPriceBkLink">Більярдний клуб</a>
         </li>
-        <li class="text-modal__item">
-          Перебування у буденний день - 300 грн з людини
+        <li class="modalPriceBkItem">
+          <a href="#Cafe" class="modalPriceBkLink">Кафе</a>
         </li>
-        <li class="text-modal__item">
-          Перебування у вихідний день - 350 грн з людини
+        <li class="modalPriceBkItem">
+          <a href="" class="modalPriceBkLink">Фото</a>
         </li>
-        <li class="text-modal__item ps-text">(Ціна вказана за одну особу)</li>
       </ul>
 
-      <h3 class="subtitle-modal">У вартість входить:</h3>
+      <!-- <b class="modalContactsSubtitle">Контакти:</b> -->
 
-      <ul class="modal-descr">
-        <li class="modal-descr__item">мангал</li>
-        <li class="modal-descr__item">альтанка</li>
-        <li class="modal-descr__item">стоянка</li>
-      </ul>
 
-      <p class="subtitle-modal"><b>Зробити замовлення</b></p>
-      <a class="contact-modal" href="tel:+380675609482">0675609482</a>
-      <a class="contact-modal" href="tel:+380964875185">0964875185</a>
+      <div class="modalContactsList">
+        <div class="modalContactsItem">
+          <svg width="21" height="21">
+            <use href="./images/icons.svg#icon-ph_phone"></use>
+          </svg>
+          <a href="tel:+380964875185" class="modalContactsLink"
+            >096 487 51 85
+            <p class="modalContactsText">кафе</p></a
+          >
+        </div>
+        <div class="modalContactsItem">
+          <svg width="21" height="21">
+            <use href="./images/icons.svg#icon-ph_phone"></use>
+          </svg>
+          <a href="tel:+380688891277" class="modalContactsLink"
+            >068 889 12 77
+            <p class="modalContactsText">більярд</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="bmContactsItemSocialBox">
+        <li class="bmContactsItemSocial">
+          <a
+            href="https://www.facebook.com/argokafe"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            class="bmContactsLink"
+          >
+            <svg width="44" height="44" class="iconSocial">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="bmContactsItemSocial">
+          <a
+            href="https://www.instagram.com/argo_billiard_cafe?igsh=MWk0dmFqeWFvaG9saw%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            class="bmContactsLink"
+          >
+            <svg width="44" height="44" class="iconSocial">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </div>
 
       <!-- close-btn -->
       <button type="button" class="close-btn-modal" data-modal-close>
@@ -78,7 +114,7 @@
   </div>
 
   <!-- Hero Cafe -->
-  <div class="heroCafe">
+  <div class="heroCafe" id="Cafe">
     <div class="titleHeroBox-Cafe">
       <h1 class="titleHero-Cafe">Кафе Арго</h1>
       <div class="btnMainHeroBox">

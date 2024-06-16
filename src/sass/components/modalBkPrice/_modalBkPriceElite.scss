@@ -1,0 +1,130 @@
+.backdropBkBarElite {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  //   min-width: 220px;
+  //   min-height: 100%;
+  background-color: $bg-fon;
+
+  // overflow-y: auto;
+  // height: 100vh;
+  z-index: 150;
+}
+
+.is-hiddenBkBarElite {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modalPriceBkBarElite {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-around;
+  min-width: 300px;
+  min-height: 568px;
+
+  background-color: $bg-bd-modal;
+  border-radius: 8px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0 32px;
+  transform: translate(-50%, -50%);
+}
+
+.close-btn-modal {
+  //   @include desktop {
+  //     cursor: pointer;
+
+  //     &:hover {
+  //       fill: $accent;
+  //     }
+  //   }
+
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  fill: $icon;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+
+  cursor: none;
+}
+
+.modalSubtitlePriceBkBarEliteBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  // padding: 72px 0 52px 0;
+}
+
+.modalPriceBkBarEliteList {
+  padding-bottom: 32px;
+}
+
+.modalPriceBkBarEliteItem {
+  display: flex;
+  justify-content: space-between;
+  color: $primary-text;
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.modalPriceBkBarEliteText {
+  @include font(21px, 1.1, 0.02, 200);
+}
+
+.lineModalBkBarElite {
+  width: 280px;
+  border: 0.5px solid $line;
+  margin: 8px 0 32px 0;
+}
+
+// .modalPriceBkLink {
+//   @include font(16px, 1.1, 0.02, 500);
+
+//   color: $secondary-text;
+// }
+
+.modalContactsText {
+  margin-left: 8px;
+}
+
+.modalContaactsTel {
+  @include font(14px, 1.1, 0.05em, 300);
+
+  color: $secondary-text;
+  margin-right: 32px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.menu-social-modal {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+.menu-social__modal {
+  @include font(15px, 1.1, 0.01em, 300);
+
+  color: $primary-text;
+}
+
+.openElitePrice {
+  padding: 4px 5px;
+  width: 64px;
+  text-align: center;
+}

@@ -1,0 +1,180 @@
+.backdropBk {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  //   min-width: 220px;
+  //   min-height: 100%;
+  background-color: $bg-fon;
+
+  // overflow-y: auto;
+  // height: 100vh;
+  z-index: 150;
+}
+
+.is-hiddenBk {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modalPriceBk {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 300px;
+  min-height: 568px;
+
+  background-color: $bg-bd-modal;
+  border-radius: 8px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0 32px;
+  transform: translate(-50%, -50%);
+}
+
+// .btn-hero-prise {
+//   /* open btn for modal */
+//   // @include tabletMin {
+//   //   @include font(24px, 600, 00.03em);
+
+//   // color: $primary-text;
+
+//   // display: flex;
+//   // justify-content: center;
+//   // align-items: center;
+//   // // margin: 0 auto;
+//   // // margin-bottom: 32px;
+//   // padding: 20px 0;
+//   // // padding: 0;
+//   // background-color: transparent;
+//   // // background-color: $bg-burger-menu;
+//   // border-radius: 30px;
+//   // border: none;
+//   // outline: none;
+//   // cursor: none;
+//   // }
+
+//   @include desktop {
+//     font-size: 28px;
+//     cursor: pointer;
+//   }
+
+//   display: none;
+// }
+
+.close-btn-modal {
+  //   @include desktop {
+  //     cursor: pointer;
+
+  //     &:hover {
+  //       fill: $accent;
+  //     }
+  //   }
+
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  fill: $icon;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+
+  cursor: none;
+}
+
+.modalSubtitlePriceBkBox {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 52px;
+  // padding: 72px 0 52px 0;
+}
+
+.modalPriceBkList {
+  padding-bottom: 32px;
+}
+
+.modalPriceBkItem {
+  display: flex;
+  justify-content: space-between;
+  color: $primary-text;
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.modalPriceBkText {
+  @include font(21px, 1.1, 0.02, 200);
+}
+
+// .modalPriceBkLink {
+//   @include font(16px, 1.1, 0.02, 500);
+
+//   color: $secondary-text;
+// }
+
+.modalContactsListSubtitle {
+  @include font(23px, 1.1, 0.02em, 400);
+
+  color: $secondary-text;
+}
+
+.modalContactsList {
+  margin: 0 auto;
+  margin-top: 12px;
+  padding-bottom: 20px;
+}
+
+.modalContactsItem {
+  @include font(14px, 1, 0.01, 400);
+
+  padding-top: 12px;
+  color: $secondary-text;
+  fill: $icon;
+  display: flex;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.modalContactsLink {
+  @include font(23px, 1.1, 0.03, 600);
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.modalContactsText {
+  margin-left: 8px;
+}
+
+.modalContaactsTel {
+  @include font(14px, 1.1, 0.05em, 300);
+
+  color: $secondary-text;
+  margin-right: 32px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.menu-social-modal {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+.menu-social__modal {
+  @include font(15px, 1.1, 0.01em, 300);
+
+  color: $primary-text;
+}

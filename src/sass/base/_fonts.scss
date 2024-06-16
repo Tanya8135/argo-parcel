@@ -9,6 +9,16 @@
     url('/src/fonts/raleway-v34-cyrillic_latin-100.woff') format('woff');
 }
 
+// 200
+@font-face {
+  display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/src/fonts/raleway-v34-cyrillic_latin-200.woff2') format('woff2'),
+    url('/src/fonts/raleway-v34-cyrillic_latin-200.woff') format('woff');
+}
+
 //300
 @font-face {
   display: swap;

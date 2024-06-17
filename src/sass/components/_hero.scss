@@ -27,69 +27,9 @@
 }
 
 /* content */
-.titleHeroBox {
-  position: absolute;
-  top: 45%;
-  left: 10%;
-  right: 10%;
-  z-index: 11;
-}
 
-.titleHero {
-  @include font(30px, 1.3, 0.01, 600);
-
-  text-align: center;
-  color: $hero-text;
-  z-index: 11;
-}
-
-.btnMainHero {
-  @include font(16px, 1.1, 0.05em, 600);
-
-  background-color: $bg-btn-hero;
-  color: $btn-text;
-  padding: 12px 27px;
-  margin-top: 32px;
-  border-radius: 10px;
-  outline: none;
-  border: none;
-
-  &:focus {
-    outline: 1px solid $accent;
-  }
-}
-
-.btnMainHeroBox {
-  display: flex;
-  justify-content: center;
-}
-
-.heroHeroText {
-  @include font(14px, 1.4, 0.07em, 300);
-
-  padding: 12px 15px 32px 15px;
-}
-
-.btnHeroHero {
-  display: block;
-  color: $btn-text;
-  background-color: transparent;
-  border: 0.5px solid $stroke;
-  border-radius: 4px;
-  outline: none;
-  width: 290px;
-  padding: 10px 0;
-  margin: 0 auto;
-  margin-bottom: 24px;
-  cursor: none;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-
-  &:focus {
-    border: 0.5px solid $accent;
-  }
+.iconPhoneBtnHero {
+  margin-right: 8px;
 }
 
 /* CAFE */
@@ -100,21 +40,4 @@
 
 .swiperCafe {
   position: relative;
-}
-
-
-.titleHeroBox-Cafe {
-  position: absolute !important; 
-  top: 25%;
-  left: 10%;
-  right: 10%;
-  z-index: 11;
-}
-
-.titleHero-Cafe {
-  @include font(30px, 1.3, 0.01, 600);
-
-  text-align: center;
-  color: $hero-text;
-  z-index: 11;
 }

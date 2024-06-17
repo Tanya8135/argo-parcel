@@ -4,11 +4,11 @@
   left: 0px;
   min-width: 100%;
   min-height: 100%;
-  //   min-width: 220px;
-  //   min-height: 100%;
+  // min-width: 220px;
+  // min-height: 100%;
   background-color: $bg-fon;
 
-  // overflow-y: auto;
+  overflow-y: auto;
   // height: 100vh;
   z-index: 150;
 }
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   // justify-content: space-around;
-  min-width: 300px;
+  max-width: 300px;
   min-height: 568px;
 
   background-color: $bg-bd-modal;
@@ -56,15 +56,18 @@
   cursor: none;
 }
 
-.modalSubtitlePriceBkBarBox {
-  display: flex;
-  justify-content: center;
-  padding-top: 72px;
-  padding-bottom: 32px;
-  // padding: 72px 0 52px 0;
-}
+// .modalSubtitlePriceBkBarBox {
+//   @include font(18px, 1.1, 0.01, 400);
+
+//   display: flex;
+//   justify-content: center;
+//   padding-top: 72px;
+//   padding-bottom: 32px;
+//   // padding: 72px 0 52px 0;
+// }
 
 .modalPriceBkBarList {
+  position: relative;
   padding-bottom: 32px;
 }
 
@@ -79,52 +82,48 @@
   }
 }
 
-.modalPriceBkBarText {
-  @include font(21px, 1.1, 0.02, 200);
-}
-
-.lineModalBkBar {
-  width: 280px;
-  border: 0.5px solid $line;
-  margin: 8px 0 32px 0;
-}
-
-// .modalPriceBkLink {
-//   @include font(16px, 1.1, 0.02, 500);
-
-//   color: $secondary-text;
+// .modalPriceBkBarText {
+//   @include font(21px, 1.1, 0.02, 200);
 // }
 
-.modalContactsText {
-  margin-left: 8px;
+.lineModalBkBar {
+  border: 0.5px solid $stroke;
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
-.modalContaactsTel {
-  @include font(14px, 1.1, 0.05em, 300);
+// .modalContactsText {
+//   margin-left: 8px;
+// }
 
-  color: $secondary-text;
-  margin-right: 32px;
+// .modalContaactsTel {
+//   @include font(14px, 1.1, 0.05em, 300);
 
-  &:last-of-type {
-    margin-right: 0;
-  }
-}
+//   color: $secondary-text;
+//   margin-right: 32px;
 
-.menu-social-modal {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 32px;
-}
+//   &:last-of-type {
+//     margin-right: 0;
+//   }
+// }
 
-.menu-social__modal {
-  @include font(15px, 1.1, 0.01em, 300);
+// .openBkBarPrice {
+//   @include font(18px, 1.1, 0.02, 200);
 
-  color: $primary-text;
-}
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 4px 0 4px 12px;
+//   margin-bottom: 12px;
+//   color: $primary-text;
+//   fill: $icon;
+//   background-color: transparent;
+//   border: none;
+//   border-radius: 4px;
+// }
 
-.testbtn {
-  padding: 4px 5px;
-  width: 64px;
-  text-align: center;
-}
+// .arrowNext {
+//   margin-left: 8px;
+// }

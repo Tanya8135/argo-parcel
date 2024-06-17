@@ -4,12 +4,16 @@
 
 // BASE
 @import './base/base';
+@import './base/button';
 @import './base/common';
 @import './base/fonts';
 @import './base/reset';
+@import './base/typography';
+
+// LAYOUT
+@import './layout/header';
 
 // COMPONENTS
-@import './components/header';
 @import './components/burger-menu/burger-menu';
 @import './components/burger-menu/burger-menu-styles';
 @import './components/hero';

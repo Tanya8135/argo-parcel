@@ -56,15 +56,15 @@
   cursor: none;
 }
 
-.modalSubtitlePriceBkBarBox {
-  @include font(18px, 1.1, 0.01, 400);
+// .modalSubtitlePriceBkBarBox {
+//   @include font(18px, 1.1, 0.01, 400);
 
-  display: flex;
-  justify-content: center;
-  padding-top: 72px;
-  padding-bottom: 32px;
-  // padding: 72px 0 52px 0;
-}
+//   display: flex;
+//   justify-content: center;
+//   padding-top: 72px;
+//   padding-bottom: 32px;
+//   // padding: 72px 0 52px 0;
+// }
 
 .modalPriceBkBarList {
   position: relative;
@@ -82,9 +82,9 @@
   }
 }
 
-.modalPriceBkBarText {
-  @include font(21px, 1.1, 0.02, 200);
-}
+// .modalPriceBkBarText {
+//   @include font(21px, 1.1, 0.02, 200);
+// }
 
 .lineModalBkBar {
   border: 0.5px solid $stroke;
@@ -94,34 +94,36 @@
   margin-bottom: 32px;
 }
 
-.modalContactsText {
-  margin-left: 8px;
-}
+// .modalContactsText {
+//   margin-left: 8px;
+// }
 
-.modalContaactsTel {
-  @include font(14px, 1.1, 0.05em, 300);
+// .modalContaactsTel {
+//   @include font(14px, 1.1, 0.05em, 300);
 
-  color: $secondary-text;
-  margin-right: 32px;
+//   color: $secondary-text;
+//   margin-right: 32px;
 
-  &:last-of-type {
-    margin-right: 0;
-  }
-}
+//   &:last-of-type {
+//     margin-right: 0;
+//   }
+// }
 
-.menu-social-modal {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 32px;
-}
+// .openBkBarPrice {
+//   @include font(18px, 1.1, 0.02, 200);
 
-.openBeerPrice {
-  @include font(21px, 1.1, 0.02, 200);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 4px 0 4px 12px;
+//   margin-bottom: 12px;
+//   color: $primary-text;
+//   fill: $icon;
+//   background-color: transparent;
+//   border: none;
+//   border-radius: 4px;
+// }
 
-  padding: 4px 16px;
-  color: $primary-text;
-  background-color: transparent;
-  border: 0.5px solid $stroke;
-  border-radius: 4px;
-}
+// .arrowNext {
+//   margin-left: 8px;
+// }

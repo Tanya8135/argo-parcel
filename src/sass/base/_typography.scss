@@ -1,0 +1,143 @@
+/**
+ * ---BURGER-MENU---
+ */
+.bmLink {
+  @include font(18px, 1, 0.03em, 300);
+  font-family: 'Open Sans', sans-serif;
+
+  color: $secondary-text;
+  padding: 5px 0;
+}
+
+.bmTextContact {
+  margin-left: 8px;
+}
+
+/** 
+* ---HERO---
+ */
+.titleHeroBox {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  right: 10%;
+  z-index: 11;
+}
+
+.titleHero {
+  @include font(30px, 1.3, 0.01, 600);
+
+  text-align: center;
+  color: $hero-text;
+  z-index: 11;
+}
+
+.heroHeroText {
+  @include font(14px, 1.4, 0.07em, 300);
+
+  padding: 12px 15px 32px 15px;
+}
+
+.titleHeroBox-Cafe {
+  position: absolute !important;
+  top: 25%;
+  left: 10%;
+  right: 10%;
+  z-index: 11;
+}
+
+/** 
+* ---MODAL---
+ */
+.modalSubtitle {
+  @include font(18px, 1.1, 0.01, 400);
+
+  display: flex;
+  justify-content: center;
+}
+
+.priceBkBox {
+  padding-bottom: 52px;
+}
+
+.modalPriceBkText {
+  @include font(21px, 1.1, 0.02, 200);
+}
+
+.modalContactsListSubtitle {
+  @include font(21px, 1.1, 0.02em, 400);
+
+  color: $secondary-text;
+}
+
+.modalContactsItem {
+  @include font(14px, 1, 0.01, 400);
+
+  padding-top: 12px;
+  color: $secondary-text;
+  fill: $icon;
+  display: flex;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.modalContactsLink {
+  @include font(21px, 1.1, 0.03, 600);
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.modalContaactsTel {
+  @include font(14px, 1.1, 0.05em, 300);
+
+  color: $secondary-text;
+  margin-right: 32px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.modalContactsText {
+  margin-left: 8px;
+}
+
+.priceBkBarBox {
+  padding-top: 72px;
+  padding-bottom: 32px;
+}
+
+.modalPriceBkBarText {
+  @include font(21px, 1.1, 0.02, 200);
+}
+
+.priceBkBarBeerBox {
+  padding-top: 32px;
+  padding-bottom: 12px;
+}
+
+.modalPriceBkBarBeerText {
+  @include font(20px, 1.1, 0.02, 200);
+}
+
+.priceBkBarEliteBox {
+  padding: 24px 0 12px 0;
+}
+
+.titleBrandy {
+  padding-top: 16px;
+}
+
+.modalPriceBkBarEliteText {
+  @include font(18px, 1.1, 0.02, 200);
+}
+
+.ml {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 12px;
+}

@@ -55,19 +55,19 @@
   cursor: none;
 }
 
-.modalSubtitlePriceBkBarEliteBox {
-  @include font(18px, 1.1, 0.01, 400);
+// .modalSubtitlePriceBkBarEliteBox {
+//   @include font(18px, 1.1, 0.01, 400);
 
-  display: flex;
-  justify-content: center;
-  // padding-top: 48px;
-  // padding-bottom: 24px;
-  padding: 32px 0 12px 0;
-}
+//   display: flex;
+//   justify-content: center;
+//   // padding-top: 48px;
+//   // padding-bottom: 24px;
+//   padding: 32px 0 12px 0;
+// }
 
-.titleBrandy {
-  padding-top: 16px;
-}
+// .titleBrandy {
+//   padding-top: 16px;
+// }
 
 // .modalPriceBkBarEliteList {
 //   padding-bottom: 32px;
@@ -84,46 +84,27 @@
   }
 }
 
-.modalPriceBkBarEliteText {
-  @include font(18px, 1.1, 0.02, 200);
-}
+// .modalPriceBkBarEliteText {
+//   @include font(18px, 1.1, 0.02, 200);
+// }
 
-.ml {
-  display: flex;
-  justify-content: end;
-  padding-bottom: 12px;
-}
+// .ml {
+//   display: flex;
+//   justify-content: end;
+//   padding-bottom: 12px;
+// }
 
 // .modalContactsText {
 //   margin-left: 8px;
 // }
 
-.modalContaactsTel {
-  @include font(14px, 1.1, 0.05em, 300);
+// .modalContaactsTel {
+//   @include font(14px, 1.1, 0.05em, 300);
 
-  color: $secondary-text;
-  margin-right: 32px;
+//   color: $secondary-text;
+//   margin-right: 32px;
 
-  &:last-of-type {
-    margin-right: 0;
-  }
-}
-
-.menu-social-modal {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 32px;
-}
-
-.menu-social__modal {
-  @include font(15px, 1.1, 0.01em, 300);
-
-  color: $primary-text;
-}
-
-.openElitePrice {
-  padding: 4px 5px;
-  width: 64px;
-  text-align: center;
-}
+//   &:last-of-type {
+//     margin-right: 0;
+//   }
+// }

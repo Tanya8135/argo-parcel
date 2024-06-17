@@ -22,13 +22,13 @@
   }
 }
 
-.bmLink {
-  @include font(18px, 1, 0.03em, 300);
-  font-family: 'Open Sans', sans-serif;
+// .bmLink {
+//   @include font(18px, 1, 0.03em, 300);
+//   font-family: 'Open Sans', sans-serif;
 
-  color: $secondary-text;
-  padding: 5px 0;
-}
+//   color: $secondary-text;
+//   padding: 5px 0;
+// }
 
 .bmContacts {
   position: relative;
@@ -75,9 +75,9 @@
   margin-right: 4px;
 }
 
-.bmTextContact {
-  margin-left: 8px;
-}
+// .bmTextContact {
+//   margin-left: 8px;
+// }
 
 .bmContactsItemSocialBox {
   display: flex;

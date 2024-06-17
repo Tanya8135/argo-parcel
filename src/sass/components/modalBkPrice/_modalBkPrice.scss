@@ -87,6 +87,8 @@
 }
 
 .modalSubtitlePriceBkBox {
+  @include font(18px, 1.1, 0.01, 400);
+
   display: flex;
   justify-content: center;
   padding-bottom: 52px;
@@ -119,7 +121,7 @@
 // }
 
 .modalContactsListSubtitle {
-  @include font(23px, 1.1, 0.02em, 400);
+  @include font(21px, 1.1, 0.02em, 400);
 
   color: $secondary-text;
 }
@@ -145,7 +147,7 @@
 }
 
 .modalContactsLink {
-  @include font(23px, 1.1, 0.03, 600);
+  @include font(21px, 1.1, 0.03, 600);
   display: flex;
   align-items: center;
   margin-left: 8px;

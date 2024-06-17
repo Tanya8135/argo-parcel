@@ -43,12 +43,21 @@
   z-index: 11;
 }
 
+.btnMainHeroBox {
+  display: flex;
+  justify-content: center;
+}
+
 .btnMainHero {
   @include font(16px, 1.1, 0.05em, 600);
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: $bg-btn-hero;
   color: $btn-text;
-  padding: 12px 27px;
+  fill: $icon;
+  padding: 12px 20px;
   margin-top: 32px;
   border-radius: 10px;
   outline: none;
@@ -59,9 +68,8 @@
   }
 }
 
-.btnMainHeroBox {
-  display: flex;
-  justify-content: center;
+.iconPhoneBtnHero {
+  margin-right: 8px;
 }
 
 .heroHeroText {
@@ -102,9 +110,8 @@
   position: relative;
 }
 
-
 .titleHeroBox-Cafe {
-  position: absolute !important; 
+  position: absolute !important;
   top: 25%;
   left: 10%;
   right: 10%;

@@ -4,11 +4,11 @@
   left: 0px;
   min-width: 100%;
   min-height: 100%;
-  //   min-width: 220px;
-  //   min-height: 100%;
+  // min-width: 220px;
+  // min-height: 100%;
   background-color: $bg-fon;
 
-  // overflow-y: auto;
+  overflow-y: auto;
   // height: 100vh;
   z-index: 150;
 }
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   // justify-content: space-around;
-  min-width: 300px;
+  max-width: 300px;
   min-height: 568px;
 
   background-color: $bg-bd-modal;
@@ -57,6 +57,8 @@
 }
 
 .modalSubtitlePriceBkBarBox {
+  @include font(18px, 1.1, 0.01, 400);
+
   display: flex;
   justify-content: center;
   padding-top: 72px;
@@ -65,6 +67,7 @@
 }
 
 .modalPriceBkBarList {
+  position: relative;
   padding-bottom: 32px;
 }
 
@@ -84,16 +87,12 @@
 }
 
 .lineModalBkBar {
-  width: 280px;
-  border: 0.5px solid $line;
-  margin: 8px 0 32px 0;
+  border: 0.5px solid $stroke;
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
-
-// .modalPriceBkLink {
-//   @include font(16px, 1.1, 0.02, 500);
-
-//   color: $secondary-text;
-// }
 
 .modalContactsText {
   margin-left: 8px;
@@ -117,14 +116,12 @@
   padding-bottom: 32px;
 }
 
-.menu-social__modal {
-  @include font(15px, 1.1, 0.01em, 300);
+.openBeerPrice {
+  @include font(21px, 1.1, 0.02, 200);
 
+  padding: 4px 16px;
   color: $primary-text;
-}
-
-.testbtn {
-  padding: 4px 5px;
-  width: 64px;
-  text-align: center;
+  background-color: transparent;
+  border: 0.5px solid $stroke;
+  border-radius: 4px;
 }

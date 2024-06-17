@@ -22,7 +22,6 @@
 .modalPriceBkBarElite {
   display: flex;
   flex-direction: column;
-  // justify-content: space-around;
   min-width: 300px;
   min-height: 568px;
 
@@ -57,16 +56,22 @@
 }
 
 .modalSubtitlePriceBkBarEliteBox {
+  @include font(18px, 1.1, 0.01, 400);
+
   display: flex;
   justify-content: center;
-  padding-top: 48px;
-  padding-bottom: 24px;
-  // padding: 72px 0 52px 0;
+  // padding-top: 48px;
+  // padding-bottom: 24px;
+  padding: 32px 0 12px 0;
 }
 
-.modalPriceBkBarEliteList {
-  padding-bottom: 32px;
+.titleBrandy {
+  padding-top: 16px;
 }
+
+// .modalPriceBkBarEliteList {
+//   padding-bottom: 32px;
+// }
 
 .modalPriceBkBarEliteItem {
   display: flex;
@@ -80,24 +85,18 @@
 }
 
 .modalPriceBkBarEliteText {
-  @include font(21px, 1.1, 0.02, 200);
+  @include font(18px, 1.1, 0.02, 200);
 }
 
-.lineModalBkBarElite {
-  width: 280px;
-  border: 0.5px solid $line;
-  margin: 8px 0 32px 0;
+.ml {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 12px;
 }
 
-// .modalPriceBkLink {
-//   @include font(16px, 1.1, 0.02, 500);
-
-//   color: $secondary-text;
+// .modalContactsText {
+//   margin-left: 8px;
 // }
-
-.modalContactsText {
-  margin-left: 8px;
-}
 
 .modalContaactsTel {
   @include font(14px, 1.1, 0.05em, 300);

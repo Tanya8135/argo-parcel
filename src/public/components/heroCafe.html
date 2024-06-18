@@ -35,7 +35,49 @@
       massa sem ante montes. Velit eget tempus tortor tristique etiam.
     </p>
 
-    <button type="button" class="btnHeroHero">Меню кафе</button>
-    <button type="button" class="btnHeroHero">Банкетні меню</button>
+    <!-- <button type="button" class="btnHeroHero">Меню кафе</button>
+    <button type="button" class="btnHeroHero">Банкетні меню</button> -->
+    <!-- <a
+      href="./images/pdf/Menu_Argo_1.pdf"
+      target="_blank"
+      rel="noopener nofollow noreferrer"
+      type="application/pdf"
+      class="btnHeroHero"
+      >Меню кафе</a
+    >
+    <a
+      href="./images/pdf/banquetMenu1.pdf"
+      target="_blank"
+      rel="noopener nofollow noreferrer"
+      type="application/pdf"
+      class="btnHeroHero"
+      >Банкетні меню</a
+    > -->
+
+    <a
+    href="./images/pdf/Menu_ArgoFullAll.pdf"
+    target="_blank"
+    rel="noopener nofollow noreferrer"
+    type="application/pdf"
+    class="btnHeroHero"
+    onclick="openPDF(url, './images/pdf/Menu_ArgoFullAll.pdf')"
+    >Меню кафе</a
+  >
+  <a
+    href="./images/pdf/banquetMenuAll.pdf"
+    target="_blank"
+    rel="noopener nofollow noreferrer"
+    type="application/pdf"
+    class="btnHeroHero"
+    onclick="openPDF(url, './images/pdf/banquetMenuAll.pdf')"
+    >Банкетні меню</a
+  >
+
+  <script>
+      function openPDF(event, url) {
+          event.preventDefault();
+          window.open(url, '_blank', 'noopener');
+      }
+  </script>
   </div>
 </section>

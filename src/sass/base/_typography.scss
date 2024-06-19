@@ -2,11 +2,49 @@
  * ---BURGER-MENU---
  */
 .bmLink {
-  @include font(18px, 1, 0.03em, 300);
+  @include font(21px, 1, 0.03em, 300);
   font-family: 'Open Sans', sans-serif;
 
   color: $secondary-text;
-  padding: 5px 0;
+  padding: 15px 0;
+}
+
+.bmBoxbmLink {
+  margin-bottom: 24px;
+}
+
+.bmContactsLink {
+  @include font(18px, 1, 0.01, 400);
+
+  display: flex;
+  fill: $icon;
+  color: $secondary-text;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:active,
+  &:hover {
+    fill: $accent;
+    color: $accent;
+  }
+}
+
+.bmContactsTelBox {
+  @include font(14px, 1.1, 0.03em, 300);
+
+  padding: 12px 0 52px 0;
+}
+
+.bmContactsTel {
+  @include font(14px, 1, 0.01, 400);
+  margin-bottom: 20px;
+  fill: $icon;
+  display: flex;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .bmTextContact {

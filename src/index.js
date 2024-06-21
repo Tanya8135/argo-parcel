@@ -1,7 +1,8 @@
 import './sass/index.scss';
 
 import './js/components/burger-menu';
-import './js/components/modalBkPrice';
-import './js/components/modalBkBarPrice';
-import './js/components/modalBkPriceBeer';
-import './js/components/modalBkPriceElite';
+import './js/modal/modalBkPrice';
+import './js/modal/modalBkBarPrice';
+import './js/modal/modalBkPriceBeer';
+import './js/modal/modalBkPriceElite';
+// import './js/photoSlider/photoBkSwiper';

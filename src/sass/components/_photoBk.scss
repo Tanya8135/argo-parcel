@@ -1,14 +1,51 @@
-// .photoBkSliderList {
+.photo {
+  padding: 0 15px;
+}
 
-// }
+.photoTitile {
+  @include font(30px, 1.1, 0.01em, 100);
+
+  color: $secondary-text;
+  padding-bottom: 24px;
+}
+
+.photoSubtitle {
+  @include font(20px, 1.1, 0.01em, 100);
+
+  color: $secondary-text;
+  padding-bottom: 32px;
+}
+
+.photoBkSliderList {
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+  padding-bottom: 76px;
+}
 
 .photoBkSliderItem {
-  display: flex;
-  justify-content: center;
+  max-width: 214px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.arrowPrev {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  fill: $arrowSemiTransparent;
+}
+
+.arrowNext {
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  fill: $arrow;
 }
 
 .btnArrow {
-  padding: 0;
+  padding: 3px;
   background-color: transparent;
   border: none;
   outline: none;

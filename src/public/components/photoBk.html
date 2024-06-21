@@ -1,9 +1,17 @@
 <section class="photo">
   <h3 class="photoTitile">Фото</h3>
-  <h4 class="photoTitleBk">Більярд</h4>
+  <h4 class="photoSubtitle">Більярд</h4>
 
   <!-- PHOTO BK -->
   <ul class="photoBkSliderList">
+    <!-- arrows slider -->
+    <div class="arrowNav arrowNext">
+      <button class="btnArrow">
+        <svg width="50" height="50">
+          <use href="./images/icons.svg#icon-arrowNext"></use>
+        </svg>
+      </button>
+    </div>
     <div class="arrowNav arrowPrev">
       <button class="btnArrow">
         <svg width="50" height="50">
@@ -11,6 +19,7 @@
         </svg>
       </button>
     </div>
+
     <li class="photoBkSliderItem">
       <img
         srcset="
@@ -22,7 +31,7 @@
         alt="Snooker table"
       />
     </li>
-    <li class="photoBkSliderItem">
+    <!-- <li class="photoBkSliderItem">
       <img
         srcset="
           ./images/mob_photo/snooker_balls_214.png   214w,
@@ -43,13 +52,6 @@
         src="./images/mob_photo/pool_214.png"
         alt="Pool"
       />
-    </li>
-    <div class="arrowNav arrowNext">
-<button class="btnArrow">
-  <svg width="50" height="50">
-    <use href="./images/icons.svg#icon-arrowNext"></use>
-  </svg>
-</button>
-    </div>
+    </li> -->
   </ul>
 </section>

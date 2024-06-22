@@ -56,18 +56,13 @@
   cursor: none;
 }
 
-// .modalSubtitlePriceBkBarBeerBox {
-//   @include font(18px, 1.1, 0.01, 400);
-
-//   display: flex;
-//   justify-content: center;
-//   padding-top: 32px;
-//   padding-bottom: 12px;
-//   // padding: 72px 0 52px 0;
-// }
-
 .modalPriceBkBarBeerList {
   padding-bottom: 24px;
+}
+
+.priceBkBarBeerBox {
+  padding-top: 32px;
+  padding-bottom: 12px;
 }
 
 .modalPriceBkBarBeerItem {
@@ -81,36 +76,8 @@
   }
 }
 
-// .modalPriceBkBarBeerText {
-//   @include font(21px, 1.1, 0.02, 200);
-// }
-
 .lineModalBkBarBeer {
   width: 280px;
   border: 0.5px solid $line;
   margin: 8px 0 32px 0;
 }
-
-// .modalPriceBkLink {
-//   @include font(16px, 1.1, 0.02, 500);
-
-//   color: $secondary-text;
-// }
-
-// .modalContaactsTel {
-//   @include font(14px, 1.1, 0.05em, 300);
-
-//   color: $secondary-text;
-//   margin-right: 32px;
-
-//   &:last-of-type {
-//     margin-right: 0;
-//   }
-// }
-
-// .menu-social-modal {
-//   display: flex;
-//   justify-content: center;
-//   padding-top: 20px;
-//   padding-bottom: 32px;
-// }

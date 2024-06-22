@@ -56,15 +56,6 @@
   cursor: none;
 }
 
-// .modalSubtitlePriceBkBox {
-//   @include font(18px, 1.1, 0.01, 400);
-
-//   display: flex;
-//   justify-content: center;
-//   padding-bottom: 52px;
-//   // padding: 72px 0 52px 0;
-// }
-
 .modalPriceBkList {
   padding-bottom: 32px;
 }
@@ -80,60 +71,8 @@
   }
 }
 
-// .modalPriceBkText {
-//   @include font(21px, 1.1, 0.02, 200);
-// }
-
-// .modalPriceBkLink {
-//   @include font(16px, 1.1, 0.02, 500);
-
-//   color: $secondary-text;
-// }
-
-// .modalContactsListSubtitle {
-//   @include font(21px, 1.1, 0.02em, 400);
-
-//   color: $secondary-text;
-// }
-
 .modalContactsList {
   margin: 0 auto;
   margin-top: 12px;
   padding-bottom: 20px;
 }
-
-// .modalContactsItem {
-//   @include font(14px, 1, 0.01, 400);
-
-//   padding-top: 12px;
-//   color: $secondary-text;
-//   fill: $icon;
-//   display: flex;
-//   align-items: center;
-
-//   &:last-child {
-//     margin-bottom: 0;
-//   }
-// }
-
-// .modalContactsLink {
-//   @include font(21px, 1.1, 0.03, 600);
-//   display: flex;
-//   align-items: center;
-//   margin-left: 8px;
-// }
-
-// .modalContactsText {
-//   margin-left: 8px;
-// }
-
-// .modalContaactsTel {
-//   @include font(14px, 1.1, 0.05em, 300);
-
-//   color: $secondary-text;
-//   margin-right: 32px;
-
-//   &:last-of-type {
-//     margin-right: 0;
-//   }
-// }

@@ -35,6 +35,20 @@
   transform: translate(-50%, -50%);
 }
 
+.priceBkBarEliteBox {
+  padding: 24px 0 12px 0;
+}
+
+.titleBrandy {
+  padding-top: 16px;
+}
+
+.ml {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 12px;
+}
+
 .close-btn-modal {
   //   @include desktop {
   //     cursor: pointer;
@@ -55,24 +69,6 @@
   cursor: none;
 }
 
-// .modalSubtitlePriceBkBarEliteBox {
-//   @include font(18px, 1.1, 0.01, 400);
-
-//   display: flex;
-//   justify-content: center;
-//   // padding-top: 48px;
-//   // padding-bottom: 24px;
-//   padding: 32px 0 12px 0;
-// }
-
-// .titleBrandy {
-//   padding-top: 16px;
-// }
-
-// .modalPriceBkBarEliteList {
-//   padding-bottom: 32px;
-// }
-
 .modalPriceBkBarEliteItem {
   display: flex;
   justify-content: space-between;
@@ -83,28 +79,3 @@
     margin-bottom: 0;
   }
 }
-
-// .modalPriceBkBarEliteText {
-//   @include font(18px, 1.1, 0.02, 200);
-// }
-
-// .ml {
-//   display: flex;
-//   justify-content: end;
-//   padding-bottom: 12px;
-// }
-
-// .modalContactsText {
-//   margin-left: 8px;
-// }
-
-// .modalContaactsTel {
-//   @include font(14px, 1.1, 0.05em, 300);
-
-//   color: $secondary-text;
-//   margin-right: 32px;
-
-//   &:last-of-type {
-//     margin-right: 0;
-//   }
-// }

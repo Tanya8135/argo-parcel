@@ -139,21 +139,19 @@
   padding-bottom: 32px;
 }
 
-.priceBkBarBeerBox {
-  padding-top: 32px;
-  padding-bottom: 12px;
+/** 
+* PHOTO
+*/
+.photoTitile {
+  @include font(30px, 1.1, 0.01em, 100);
+
+  color: $secondary-text;
+  padding-bottom: 24px;
 }
 
-.priceBkBarEliteBox {
-  padding: 24px 0 12px 0;
-}
+.photoSubtitle {
+  @include font(20px, 1.1, 0.01em, 100);
 
-.titleBrandy {
-  padding-top: 16px;
-}
-
-.ml {
-  display: flex;
-  justify-content: end;
-  padding-bottom: 12px;
+  color: $secondary-text;
+  padding-bottom: 32px;
 }

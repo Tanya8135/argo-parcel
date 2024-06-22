@@ -10,20 +10,34 @@
 }
 
 .navFooter {
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 320px;
 }
 
 .footerList {
+  @include mobileMin {
+    gap: 8px;
+  }
+
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 16px;
   padding: 56px 0;
 }
 
-.footerItem {
+.footerText {
+  @include mobileMin {
+    @include font(14px, 1.1, 0.01em, 300);
+  }
+
   @include font(16px, 1.1, 0.01em, 300);
+
+  color: $secondary-text;
+}
+
+.footerItem {
   flex-basis: calc(100% - 5px) / 2;
   padding: 5px;
   min-width: 150px;
@@ -31,9 +45,41 @@
   transform: translateX(4px);
 
   &:nth-child(2n) {
-    // transform: translateX(20px);
     min-width: 132px;
   }
+}
+
+.addressFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.footerContactBox {
+  display: block;
+  margin-left: 32px;
+}
+
+.footerContactItem {
+  display: flex;
+  margin-bottom: 16px;
+  fill: $icon;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.iconPhone {
+  @include mobile {
+    min-width: 19px;
+    min-height: 19px;
+  }
+}
+
+.footerlink {
+  display: flex;
+  margin-left: 4px;
+  margin-right: 8px;
 }
 
 .rightReserved {

@@ -1,0 +1,43 @@
+.footer {
+  background-color: $bg-header-footer;
+  padding: 0 15px;
+}
+
+.logoFooter {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.navFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.footerList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 56px 0;
+}
+
+.footerItem {
+  @include font(16px, 1.1, 0.01em, 300);
+  flex-basis: calc(100% - 5px) / 2;
+  padding: 5px;
+  min-width: 150px;
+
+  transform: translateX(4px);
+
+  &:nth-child(2n) {
+    // transform: translateX(20px);
+    min-width: 132px;
+  }
+}
+
+.rightReserved {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 8px 0;
+}

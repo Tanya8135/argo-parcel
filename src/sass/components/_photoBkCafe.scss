@@ -1,0 +1,38 @@
+.photo {
+  padding: 0 15px;
+}
+
+.photoBkSliderList {
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+  padding-bottom: 76px;
+}
+
+.photoBkSliderItem {
+  max-width: 214px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.arrowPrev {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  fill: $arrowSemiTransparent;
+}
+
+.arrowNext {
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  fill: $arrow;
+}
+
+.btnArrow {
+  padding: 3px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}

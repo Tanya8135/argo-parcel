@@ -123,3 +123,23 @@
   color: $secondary-text;
   padding-bottom: 32px;
 }
+
+/**
+* FOOTER
+*/
+.footerText {
+  @include mobileMin {
+    @include font(14px, 1.1, 0.01em, 300);
+  }
+
+  @include font(16px, 1.1, 0.01em, 300);
+
+  color: $secondary-text;
+}
+
+.rightReservedText {
+  @include font(12px, 1.1, 00.01em, 300);
+
+  color: $secondary-text;
+  font-family: 'Open Sans', sans-serif;
+}

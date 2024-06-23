@@ -3,6 +3,11 @@
   padding: 0 15px;
 }
 
+.footerBox {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
 .logoFooter {
   display: flex;
   justify-content: center;
@@ -12,19 +17,19 @@
 .navFooter {
   display: block;
   margin: 0 auto;
-  max-width: 320px;
+  // max-width: 320px;
 }
 
 .footerList {
   @include mobileMin {
-    gap: 8px;
+    gap: 2px;
   }
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 16px;
-  padding: 24px 0 44px 0;
+  gap: 4px;
+  padding: 24px 0 20px 0;
 }
 
 .footerItem {
@@ -39,14 +44,9 @@
   }
 }
 
-.addressFooterBox {
-  display: flex;
-  justify-content: center;
-}
-
 .footerContactBox {
   display: block;
-  margin-left: 32px;
+  padding-top: 6px;
 }
 
 .footerContactItem {
@@ -74,8 +74,7 @@
 
 .addressLocal {
   display: flex;
-  justify-content: center;
-  padding-top: 20px;
+  padding-top: 24px;
 }
 
 .addressTextLocal {
@@ -88,19 +87,15 @@
 
 .footerSocialBox {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   padding-top: 24px;
 }
 
 .footerSocial {
-  margin-left: 32px;
+  margin-right: 32px;
 
   &:last-child {
-    margin-right: 0;
-  }
-
-  &:first-child {
-    margin-left: 11px;
+    margin-right: 17px;
   }
 }
 
@@ -111,5 +106,5 @@
 .rightReserved {
   display: flex;
   justify-content: center;
-  padding: 32px 0 8px 0;
+  padding: 24px 0 8px 0;
 }
